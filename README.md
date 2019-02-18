@@ -1,5 +1,5 @@
 # Quizztro
-Quizztro is a quiz app that tests a user's knowledge on a variety of FBLA-related topics
+Quizztro is a quiz game app that tests a user's knowledge on a variety of FBLA-related topics
 
 ## Features
 Quizztro has a variety of features including
