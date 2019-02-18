@@ -58,7 +58,7 @@ public class InfoActivity extends AppCompatActivity {
                 return false;
             }
         });
-        //send the user to source code on github when source code button is clicked
+        //send the user to source code on github when "Source Code" button is clicked
         srcbtn.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
