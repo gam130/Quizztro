@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/abtbtn"
+        android:layout_width="203dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/buttonback"
+        />
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="About FBLA"
+        android:textColor="#ff4550"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:id="@+id/srcbtn"
+        android:layout_width="203dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/buttonback"/>
+    <TextView
+        android:id="@+id/addinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:text="Source Code"
+        android:textColor="#ff4550"
+        android:textSize="20sp"
+
+        />
+
+
+</RelativeLayout>
