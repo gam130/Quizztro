@@ -58,6 +58,7 @@ public class InfoActivity extends AppCompatActivity {
                 return false;
             }
         });
+        //send the user to source code on github when source code button is clicked
         srcbtn.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -68,7 +69,7 @@ public class InfoActivity extends AppCompatActivity {
                     case MotionEvent.ACTION_UP:
                         srcbtn.startAnimation(ani2);
 
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gam130"));
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gam130/Quizztro"));
                         startActivity(intent);
                         return true;
                 }
