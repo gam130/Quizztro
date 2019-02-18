@@ -31,3 +31,4 @@ Quizztro has a variety of features including
 #### Sources: 
  - [Stack Overflow](https://stackoverflow.com/) to help solve issues
 ## License
+This app is under the [MIT License](https://opensource.org/licenses/MIT)
