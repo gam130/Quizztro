@@ -23,7 +23,7 @@ public class InfoActivity extends AppCompatActivity {
     TextView abt;
     TextView src1;
     Typeface t;
-    ImageButton aboutButton;
+    ImageButton aboutButton , srcbtn;
     @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class InfoActivity extends AppCompatActivity {
         abt.setTypeface(t);
         src1.setTypeface(t);
         aboutButton = (ImageButton) findViewById(R.id.abtbtn);
+        srcbtn = (ImageButton) findViewById(R.id.srcbtn);
         //animation initialization
         final Animation ani = AnimationUtils.loadAnimation(this, R.anim.clickanim);
         final Animation ani2 = AnimationUtils.loadAnimation(this, R.anim.releaseanim);
@@ -51,6 +52,23 @@ public class InfoActivity extends AppCompatActivity {
                         aboutButton.startAnimation(ani2);
 
                         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.fbla-pbl.org/about/"));
+                        startActivity(intent);
+                        return true;
+                }
+                return false;
+            }
+        });
+        srcbtn.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                switch(event.getAction()){
+                    case MotionEvent.ACTION_DOWN:
+                        srcbtn.startAnimation(ani);
+                        return true;
+                    case MotionEvent.ACTION_UP:
+                        srcbtn.startAnimation(ani2);
+
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gam130"));
                         startActivity(intent);
                         return true;
                 }
