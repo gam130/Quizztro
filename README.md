@@ -17,7 +17,7 @@ Quizztro has a variety of features including
 ## Installation
 #### If installing Quizztro on a physical device (Recommended)
 - Ensure the device has the ability to install apps from unknown sources. If it does not, enable this option in settings
-- Visit [this link](https://drive.google.com/file/d/1MYMsbztBeNzDCQnbvMu-AfiUXSN0otCV/view?usp=sharing) and download the APK file
+- Visit [this link](https://drive.google.com/file/d/1MYMsbztBeNzDCQnbvMu-AfiUXSN0otCV/view?usp=sharing) from the device and download the APK file
 - Open the APK file and click install when prompted
 #### If running Quizztro through Android Studio (NOT RECOMMENDED)
 - Ensure [Android Studio](https://developer.android.com/studio/) is installed
