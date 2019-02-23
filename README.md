@@ -1,4 +1,4 @@
-## SCREENSHOTS ARE IN SCREENSHOTS/Quizztro-Screenshots (NO WAY TO UPLOAD PDF ON MD-FBLA SUBMISSION)
+### SCREENSHOTS ARE IN [SCREENSHOTS/Quizztro - Screenshots](https://github.com/gam130/Quizztro/blob/master/SCREENSHOTS/Quizztro%20-%20Screenshots.pdf) (NO WAY TO UPLOAD PDF ON MD-FBLA SUBMISSION)
 
 # Quizztro
 Quizztro is a quiz game app that tests a user's knowledge on a variety of FBLA-related topics
