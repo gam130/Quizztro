@@ -1,3 +1,5 @@
+##SCREENSHOTS ARE IN SCREENSHOTS/Quizztro-Screenshots (NO WAY TO UPLOAD PDF ON MD-FBLA SUBMISSION)
+
 # Quizztro
 Quizztro is a quiz game app that tests a user's knowledge on a variety of FBLA-related topics
 
